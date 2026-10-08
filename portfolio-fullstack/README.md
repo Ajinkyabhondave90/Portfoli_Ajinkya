@@ -73,17 +73,4 @@ Set these environment variables before starting the backend (Gmail needs an App 
 ```
 MAIL_ENABLED=true  MAIL_USERNAME=you@gmail.com  MAIL_PASSWORD=your-app-password  MAIL_TO=you@gmail.com
 ```
-Read saved messages: `GET http://localhost:8080/api/admin/messages` with header `X-Admin-Token: change-me` (set `ADMIN_TOKEN` to change it).
 
-## Deploy
-- **Frontend only (easiest):** `npm run build`, then upload the `dist` folder to Vercel, Netlify or GitHub Pages. The site works without the backend.
-- **With backend:** deploy the Spring Boot jar (`mvn package`) to a Java host, set `CORS_ORIGINS` to your frontend address, and set `VITE_API_URL` when building the frontend.
-
-## Interview preparation
-- What is REST, and which HTTP methods and status codes does this API use (200, 201, 400, 401)?
-- What does `@RestController`, `@Valid` and `@RequestBody` do?
-- What is Spring Data JPA, and how does Hibernate map `ContactMessage` to a table?
-- What is CORS and why is `WebConfig` needed?
-- What are React components, props, state, `useState` and `useEffect`?
-- Why is the `Contact` form a controlled component?
-- DTO vs entity: why is `ContactRequest` separate from `ContactMessage`?
