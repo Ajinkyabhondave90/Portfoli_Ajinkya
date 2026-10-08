@@ -63,10 +63,7 @@ cd frontend
 npm install
 npm run dev
 ```
-Open http://localhost:5173 (calls to `/api` are proxied to the backend).
 
-## Edit your content
-Change `backend/src/main/resources/portfolio.json`, then copy the same file to `frontend/src/data/portfolio.json`.
 
 ## Get messages by email (optional)
 Set these environment variables before starting the backend (Gmail needs an App Password):
