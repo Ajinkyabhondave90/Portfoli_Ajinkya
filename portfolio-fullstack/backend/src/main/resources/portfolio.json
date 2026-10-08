@@ -1,0 +1,59 @@
+{
+  "profile": {
+    "name": "Ajinkya Bhondave",
+    "role": "Software Developer",
+    "intro": "Fresher Computer Science graduate (BCS) with hands-on project experience in Core Java (JDK 8), OOP, JSP, Servlets, JDBC, Spring Boot, Java Swing, MySQL and PostgreSQL, plus frontend development with HTML5, CSS3, JavaScript and React.js. Currently training and building my skills in Data Structures & Algorithms.",
+    "email": "abhondve682@gmail.com",
+    "phone": "+91-7350948651",
+    "location": "Pune, Maharashtra",
+    "github": "https://github.com/Ajinkyabhondave90",
+    "linkedin": "https://linkedin.com/in/ajinkya-bhondave",
+    "status": "Fresher",
+    "softSkills": "Communication, Problem Solving, Teamwork, Adaptability"
+  },
+  "stats": [
+    {"value": "5", "label": "Projects built"},
+    {"value": "4", "label": "Certifications earned"},
+    {"value": "8.0", "label": "BCS CGPA (out of 10)"},
+    {"value": "1", "label": "Training in progress"}
+  ],
+  "services": [
+    {"title": "Java Web Development", "text": "Web applications using Java, JSP, Servlets, JDBC and Spring Boot, with login, CRUD operations and database connectivity."},
+    {"title": "Frontend Development", "text": "Pages built with HTML5, CSS3 and JavaScript, and reusable components using React.js, JSX and hooks."},
+    {"title": "Database Management", "text": "Designing and querying relational databases with SQL, MySQL and PostgreSQL."}
+  ],
+  "training": {
+    "period": "Aug. 2026 - Present",
+    "title": "Java, JavaScript & React.js Training",
+    "org": "TechCloud",
+    "summary": "Practical training in Java, JavaScript, React.js, HTML, CSS and SQL, covering OOP concepts, database connectivity and frontend development.",
+    "points": [
+      "Studied object-oriented programming in Java, including inheritance, polymorphism, encapsulation and abstraction.",
+      "Practiced Core Java fundamentals including constructors, exception handling, collections and string handling.",
+      "Practiced SQL and Java database connectivity concepts for storing and retrieving application data.",
+      "Practiced building frontend pages using HTML, CSS and JavaScript.",
+      "Worked with React.js fundamentals including JSX, components, imports/exports and rendering."
+    ]
+  },
+  "education": [
+    {"degree": "Bachelor of Computer Science (BCS)", "school": "Indira College of Commerce & Science, Pune", "detail": "CGPA: 8.0/10"},
+    {"degree": "Class XII", "school": "Smt. Saraswatibai Bhale Patil Jr. College, Parbhani", "detail": "Percentage: 81%"}
+  ],
+  "certifications": [
+    {"title": "Java for Beginners", "issuer": "Simplilearn"},
+    {"title": "Python for Beginners", "issuer": "Simplilearn"},
+    {"title": "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate", "issuer": "Oracle"},
+    {"title": "Java Certification: Unlocking the Power of JavaScript", "issuer": "Scaler"}
+  ],
+  "skills": {
+    "logos": ["Java", "Spring Boot", "Hibernate", "Python", "MySQL", "PostgreSQL", "HTML5", "CSS3", "JavaScript", "React.js", "Git", "GitHub", "Eclipse", "VS Code"],
+    "concepts": ["Core Java", "OOP", "Constructors", "Exception Handling", "Collections", "String Handling", "JDBC", "JSP", "Servlets", "Java Swing", "SQL", "CRUD", "JSX", "Data Structures & Algorithms", "Debugging"]
+  },
+  "projects": [
+    {"title": "Hospital Management System", "tags": ["Java", "JSP", "Servlets", "MySQL", "HTML", "CSS"], "points": ["Web-based Java application to manage patients, doctors, appointments and billing.", "Patient registration, doctor management and appointment scheduling modules using JSP and Servlets.", "Billing and invoice functionality with records stored in MySQL.", "Login authentication and a user dashboard."]},
+    {"title": "Pharmacy Management System", "tags": ["Java", "JDBC", "MySQL", "SQL", "OOP", "CRUD", "Exception Handling"], "points": ["Java application to manage medicines, stock and billing records.", "Medicine stock tracking, expiry-date tracking, and customer and sales record management.", "Connected to MySQL using JDBC for CRUD operations.", "Wrote SQL queries to add, view, update and delete medicine, stock and sales records, with exception handling for database errors.", "Login and admin functionality."]},
+    {"title": "Student Loan Application", "tags": ["Java", "Spring Boot", "PostgreSQL", "React.js", "HTML", "CSS", "JavaScript"], "points": ["Full-stack web application for managing student loan applications, built with Java and Spring Boot, a PostgreSQL database, and a React.js frontend alongside HTML, CSS and JavaScript."]},
+    {"title": "Snake Game", "tags": ["Java", "JDK 8", "Swing", "OOP", "Collections"], "points": ["Desktop Snake game built with Core Java and Swing on JDK 8.", "Used OOP with separate classes for the snake, food and game board.", "Handled keyboard input with event listeners and ran the game loop using a Swing Timer.", "Implemented collision detection, scoring and game-over logic, storing snake segments in a Java collection."]},
+    {"title": "Employee Management Dashboard", "tags": ["React.js", "JSX", "JavaScript", "HTML", "CSS"], "points": ["React.js application to add, edit and delete employee records (name, salary and city).", "Built reusable functional components and managed data with useState and useEffect hooks.", "Displayed employees in a table with search and filter, using controlled form inputs with validation.", "Saved records in the browser using localStorage so data stays after a refresh."]}
+  ]
+}
